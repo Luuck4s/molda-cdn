@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "viagem-01",
+      "name": "Viagem",
+      "previewUrl": "https://Luuck4s.github.io/molda-cdn/molda/v1/previews/viagem-01.webp",
+      "width": 1080,
+      "height": 1920,
+      "placeholders": [
+        { "id": "left", "x": 32, "y": 40, "width": 320, "height": 1840 },
+        { "id": "topRight", "x": 400, "y": 40, "width": 648, "height": 850 },
+        { "id": "bottomRight", "x": 400, "y": 970, "width": 648, "height": 850 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "viagem-01",
+  "name": "Viagem",
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "backgroundColor": "#F4F1EA"
+  },
+  "layers": [
+    {
+      "id": "bg_texture",
+      "type": "background",
+      "zIndex": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1920,
+      "source": "https://Luuck4s.github.io/molda-cdn/molda/v1/assets/paper_texture.webp"
+    },
+    {
+      "id": "left",
+      "type": "photo_placeholder",
+      "zIndex": 1,
+      "x": 32,
+      "y": 40,
+      "width": 320,
+      "height": 1840,
+      "rotation": 0,
+      "cornerRadius": 16
+    },
+    {
+      "id": "topRight",
+      "type": "photo_placeholder",
+      "zIndex": 2,
+      "x": 400,
+      "y": 40,
+      "width": 648,
+      "height": 850,
+      "rotation": 0,
+      "cornerRadius": 16
+    },
+    {
+      "id": "bottomRight",
+      "type": "photo_placeholder",
+      "zIndex": 3,
+      "x": 400,
+      "y": 970,
+      "width": 648,
+      "height": 850,
+      "rotation": 0,
+      "cornerRadius": 16
+    },
+    {
+      "id": "sticker_stamp",
+      "type": "sticker",
+      "zIndex": 4,
+      "x": 820,
+      "y": 1700,
+      "width": 180,
+      "height": 180,
+      "rotation": -12,
+      "source": "https://Luuck4s.github.io/molda-cdn/molda/v1/stickers/star-yellow.svg"
+    }
+  ]
+}
