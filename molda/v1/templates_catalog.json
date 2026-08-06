@@ -15,36 +15,28 @@
           "overlayUrl": "https://luuck4s.github.io/molda-cdn/molda/v1/templates/core-memories-01-overlay.png",
           "placeholders": [
             {
-              "id": "photo-top",
-              "x": 415,
-              "y": 160,
-              "width": 430,
-              "height": 430,
-              "rotation": -8
+              "id": "photo-top-left",
+              "x": 73,
+              "y": 51,
+              "width": 467,
+              "height": 474,
+              "rotation": -9
             },
             {
-              "id": "photo-left",
-              "x": 115,
-              "y": 570,
-              "width": 360,
-              "height": 505,
-              "rotation": 2
+              "id": "photo-middle-right",
+              "x": 516,
+              "y": 687,
+              "width": 468,
+              "height": 409,
+              "rotation": 8
             },
             {
-              "id": "photo-right",
-              "x": 505,
-              "y": 900,
-              "width": 395,
-              "height": 450,
-              "rotation": 1
-            },
-            {
-              "id": "photo-bottom",
-              "x": 155,
-              "y": 1320,
-              "width": 515,
-              "height": 370,
-              "rotation": -7
+              "id": "photo-bottom-left",
+              "x": 152,
+              "y": 1297,
+              "width": 411,
+              "height": 492,
+              "rotation": -9
             }
           ]
         }
