@@ -2,29 +2,50 @@
   "version": 1,
   "templates": [
     {
-      "id": "viagem-01",
-      "name": "Viagem",
-      "previewUrl": "https://Luuck4s.github.io/molda-cdn/molda/v1/previews/viagem-01.webp",
-      "pages": [ 
+      "id": "core-memories-01",
+      "name": "Core Memories",
+      "previewUrl": "https://luuck4s.github.io/molda-cdn/molda/v1/previews/core-memories-01.webp",
+      "pages": [
         {
-          "id": "cover",
-          "name": "Capa",
+          "id": "card",
+          "name": "Cartão",
           "width": 1080,
           "height": 1920,
+          "backgroundUrl": "https://luuck4s.github.io/molda-cdn/molda/v1/templates/core-memories-01-background.webp",
+          "overlayUrl": "https://luuck4s.github.io/molda-cdn/molda/v1/templates/core-memories-01-overlay.png",
           "placeholders": [
-            { "id": "left", "x": 32, "y": 40, "width": 320, "height": 1840 },
-            { "id": "topRight", "x": 400, "y": 40, "width": 648, "height": 850 },
-            { "id": "bottomRight", "x": 400, "y": 970, "width": 648, "height": 850 }
-          ]
-        },
-        {
-          "id": "details",
-          "name": "Detalhes",
-          "width": 1080,
-          "height": 1920,
-          "placeholders": [
-            { "id": "detail-1", "x": 60, "y": 180, "width": 960, "height": 720 },
-            { "id": "detail-2", "x": 60, "y": 980, "width": 960, "height": 720 }
+            {
+              "id": "photo-top",
+              "x": 415,
+              "y": 160,
+              "width": 430,
+              "height": 430,
+              "rotation": -8
+            },
+            {
+              "id": "photo-left",
+              "x": 115,
+              "y": 570,
+              "width": 360,
+              "height": 505,
+              "rotation": 2
+            },
+            {
+              "id": "photo-right",
+              "x": 505,
+              "y": 900,
+              "width": 395,
+              "height": 450,
+              "rotation": 1
+            },
+            {
+              "id": "photo-bottom",
+              "x": 155,
+              "y": 1320,
+              "width": 515,
+              "height": 370,
+              "rotation": -7
+            }
           ]
         }
       ]
